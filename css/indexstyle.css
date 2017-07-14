@@ -1,0 +1,381 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: lightgoldenrodyellow;
+}
+#container{
+	width: 750px;
+	height: auto;
+	background: #FFFFFF;
+}
+#top{
+	width: 750px;
+	height: 74px;
+	background: #FE5400;
+	display: flex;
+}
+#top-left{
+	width: 80px;
+	height: 74px;
+	display: flex;/*设置为弹性容器*/
+	align-items: center;/*弹性项目在侧轴上居中紧挨着对齐*/
+	justify-content: center;/*弹性项目在主轴上居中紧挨着填充*/
+}
+#top-right{
+	width: 670px;
+	display: flex;
+	padding-right: 20px;
+	align-items: center;
+}
+#top-right-main{
+	width: 100%;
+	height: 48px;
+	display: flex;
+	font-size: 24px;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+}
+#img-show img{
+	width: 750px;
+	height: 234px;
+}
+
+#option div{
+	width: 750px;
+	height: 160px;
+	display: flex;
+	justify-content: space-around;
+}
+#option div a{
+	
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#option div a img{
+	width: 120px;
+}
+#option div a span{
+	padding-top: 10px;
+	color: rgb(102,102,102);
+	font-size: 18px;
+}
+#massage{
+	width: 750px;
+	height: 82px;
+	display: flex;
+	border-bottom: 5px solid #ccc;
+
+}
+#m-left{
+	width: 164px;
+	height: 66px;
+	border-right:1px solid #CCCCCC ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#m-left img{
+	width: 140px;
+}
+#m-right{
+	flex: 1;
+	height: 82px;
+	line-height: 36px;
+	font-size: 20px;
+	padding-left: 15px;
+}
+#m-right a{
+	text-decoration: none;
+}
+.tag{
+	padding-left: 10px;
+	padding-right: 5px;
+	width: 50px;
+	text-align: center;
+	border: 1px solid #FE5400;
+	color: red;
+	border-radius: 10px;
+}
+.text{
+	color: #999999;
+	margin-left: 10px;
+}
+.text:hover{
+	color: rgb(102,102,102);
+}
+#sales1{
+	width: 750px;
+	height: 200px;
+	display: flex;
+	border-top: 5px solid#CCCCCC;
+}
+#sales2{
+	display: flex;
+}
+#s2-left img{
+	width: 278px;
+	height: 375px;
+	border-right: 1px solid #CCCCCC;
+}
+
+#s2-right{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+#s2-r-top{
+	height: 174px;
+	display: flex;
+}
+#s2-r-top img{
+	width: 100%;
+}
+#s2-r-bottom{
+	flex: 1;
+	border-top: 1px solid #CCCCCC;
+	display: flex;
+}
+#s2-r-bottom img{
+	width: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#s2-r-bottom :last-child img{
+	border-right: 0px;
+}
+
+#brand{
+	width: 750px;
+	height: 597px;
+}
+#brand-top{
+	height: 330px;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#brand-top img{
+	width: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#brand-top :last-child img{
+	border-right: 0px;
+}
+#brand-right{
+	height: 267px;
+	display: flex;
+	justify-content: center;
+
+}
+#brand-right img{
+		border-right: 1px solid #CCCCCC;
+		width: 100%;
+}
+#brand-right :last-child img{
+	border-right: 0px;
+}
+
+#gold{
+	width: 750px;
+	height: 160px;
+	display: flex;
+	border-top: 10px solid #CCCCCC;
+}
+#gold img{
+	width: 100%;
+}
+
+#lightspot{
+	width: 750px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#gold-brand{
+	width: 750px;
+	display: flex;
+	border-top: 1px solid #CCCCCC;
+}
+
+#gold-brand-bottom{
+	width: 750px;
+	height: 512px;
+	display: flex;
+}
+#gold-brand-bottom-left{
+	width: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-right: 1px solid #CCCCCC;
+}
+#gold-brand-bottom-left img{
+	
+	width: 100%;
+}
+#gold-brand-bottom-right{
+	width: 490px;
+	height: 512px;
+	display: flex;
+	flex-direction: column;
+}
+#gold-bottom-right-top{
+	height: 256px;
+	width: 490px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+#gold-bottom-right-top img{
+	width: 100%;
+}
+#gold-bottom-right-bottom{
+	height: 256px;
+	width: 490px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#gold-bottom-right-bottom img{
+	width: 100%;
+}
+
+#tianmao-main{
+	height: 620px;
+	width: 750px;
+	border-top: 5px solid #CCCCCC;
+	
+}
+#tianmao-logo{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#tianmao-content{
+	border-top: 1px solid #CCCCCC;
+	padding-top: 5px;
+	width: 750px;
+	height: 530px;
+}
+#tianmao-content-top{
+	width: 750px;
+	height: 311px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #CCCCCC;
+}
+#tianmao-content-top img{
+	border-right: 1px solid #CCCCCC;
+	width: 100%;
+}
+#tianmao-content-bottom{
+	width: 750px;
+	height: 213px;
+	display: flex;
+	justify-content: center;
+}
+#tianmao-content-bottom img{
+	width: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#tianmao-content-bottom :last-child img{
+	border-right: 0px;
+}
+
+#guess{
+	width: 750px;
+	height: 60px;
+	font-size: 24px;
+	font-weight: bold;
+	display: flex;
+	border-top: 5px solid #CCCCCC;
+	align-items: center;
+	justify-content: center;
+}
+#guess-text{
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+
+#like{
+	width: 750px;
+	height: 3800px;
+	display: flex;
+}
+.like-picture {
+
+	width: 375px;
+	display: flex;
+	flex-direction: column;
+}
+.like-picture a{
+	border: 1px solid #CCCCCC;
+}
+.like-picture a:hover{
+	border:1px solid #FF0000;
+}
+.like-picture a span:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+.like-picture img{
+	width: 100%;
+}
+.like-picture span{
+	padding: 5px;
+}
+.picture{
+	margin: 0.1px;
+}
+.number{
+	float: right;
+	color: #999999;
+}
+.price{
+	color: #FF0000;
+}
+
+
+
+#bottom{
+	position: fixed;
+	width: 750px;
+	height: 86px;
+	border: 1px solid #CCCCCC;
+	background: #FE5400;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 27px;
+	
+}
+#bottom a{
+	text-decoration: none;
+	color: #fff;
+}
+#bottom a:hover{
+	color: rgb(102,102,102);
+}
